@@ -1,0 +1,168 @@
+.avatar_input {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.settings {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.settings .avatar {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    max-width: 100%;
+    width: 600px;
+    gap: 5px;
+
+    align-items: center;
+}
+
+.settings .avatar>* {
+    display: block;
+}
+
+.settings .avatar img {
+    height: 200px;
+}
+
+.settings .avatar .avatar_input {
+    width: 100%;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr auto;
+}
+
+.settings .avatar .avatar_input input {
+    border: 2px solid #333;
+}
+
+.settings .avatar .avatar_input button {
+    background-color: #333;
+    border: 2px solid #333;
+    padding: 5px 25px;
+    color: white;
+}
+
+.settings .avatar .avatar_input button:hover {
+    background-color: white;
+    color: #333;
+}
+
+.settings .names_control input {
+    border: 2px solid #333;
+    padding: 5px;
+    width: 100%;
+}
+
+.settings .names_control {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.settingsTagsMap {
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+
+.settingsTagsMap div {
+    background-color: #333;
+    color: white;
+    padding: 5px;
+}
+
+.settingsTagsMap button {
+
+    width: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    height: 30px;
+    background-color: #333;
+    border: 2px solid white;
+    color: white;
+
+}
+
+.settingsTagsMap button:hover {
+    color: #333;
+    background-color: white;
+}
+
+.settingsTagsInputs {
+    display: grid;
+    width: 100%;
+    gap:5px;
+    max-width: 600px;
+    grid-template-columns: 1fr auto;
+}
+
+.settingsTagsInputs input {
+    padding: 5px;
+    border: 2px solid #333;
+}
+
+.settingsTagsInputs button {
+    background-color: #333;
+    border: 2px solid #333;
+    padding: 5px 25px;
+    color: white;
+}
+
+.settingsTagsInputs button:hover {
+    color: #333;
+    background-color: white;
+}
+
+.submitChanges {
+    max-width: 600px;
+    width: 100%;
+    background-color: #333;
+    padding: 5px 25px;
+    color: white;
+    border: 2px solid #333;
+}
+
+.changePassword {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+    max-width: 600px;
+}
+
+
+.changePassword button {
+    background-color: #333;
+    color: white;
+    padding: 5px 25px;
+    border: 2px solid #333;
+
+}
+
+.changePassword input {
+    padding: 5px;
+    border: 2px solid #333;
+
+}
+
+.changeEmail {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+.avatar_input input{
+    padding: 5px; 
+
+}

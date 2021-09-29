@@ -1,0 +1,180 @@
+.inputForm {
+    padding: 20px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.inputForm input,
+.inputForm textarea {
+    border-radius: 0;
+    padding: 5px;
+}
+
+.inputForm input:focus,
+.inputForm textarea:focus {
+    border: 2px solid #333;
+
+}
+
+.TitleInput {
+    border: 2px solid #333;
+}
+
+.DescriptionInput {
+    border: 2px solid #333;
+}
+
+.tagsInputControl {
+    display: grid;
+    gap: 5px;
+    width: 100%;
+    grid-template-columns: 1fr auto;
+}
+
+.tagsInputControl input {
+    border: 2px solid #333;
+
+}
+
+.tagsInputControl button {
+    padding: 5px 15px;
+    color: white;
+    background-color: #333;
+    border: 2px solid #333;
+}
+
+.tagsInputControl button:hover {
+    color: #333;
+    background-color: white;
+}
+
+.inputForm>* {}
+
+.inputFormTagsMap {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.inputFormTag {
+    background-color: #333;
+    padding: 5px 15px;
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.inputFormTag button {
+    width: 30px;
+    border: 2px solid white;
+    color: white;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.inputFormTag button:hover {
+    background-color: white;
+    color: #333;
+}
+
+input[type="file"] {
+    padding: 0;
+}
+
+.fileInput {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 5px;
+}
+
+.fileInput input {
+    border: 2px solid #333;
+}
+
+.fileInput button {
+    border: 2px solid white;
+    color: white;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    border: 2px solid #333;
+}
+
+.fileInput button:hover {
+    background-color: white;
+    color: #333;
+    border: 2px solid #333;
+}
+
+.create {
+    background-color: #333;
+    color: white;
+    border: 2px solid #333;
+    padding: 5px 15px;
+}
+
+.create:hover {
+    background-color: white;
+    color: #333;
+
+}
+
+.imagesMap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagesMap img {
+    max-height: 300px;
+    max-width: 100%;
+    height: 300px;
+    border: 2px solid transparent;
+
+}
+
+.imagesMap img:hover {
+    border: 2px solid red;
+}
+
+.page-controll {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 5px;
+}
+
+.page-controll button {
+    padding: 2px 5px;
+    border: 2px solid #333;
+    background-color: white;
+    color: #333;
+}
+
+.page-controll button:hover {
+    background-color: #333;
+    color: white;
+}
+
+.page-conroll-pages-list {
+    max-width: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+
+.page-conroll-input input {
+    width: 100%;
+
+}
+
+.inputFormTitle {
+    font-size: 30px;
+}

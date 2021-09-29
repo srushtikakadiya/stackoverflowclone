@@ -1,0 +1,42 @@
+.userProfile{
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    gap: 5px;
+    background-color: #cccccc;
+
+}
+.userProfile >*{
+    width: 100%;
+}
+.tagsMapFromProfile{
+    display: flex;
+    gap: 5px;
+
+    flex-wrap: wrap;
+}
+.tagsMapFromProfile > *{
+    padding: 5px;
+    background-color: #333;
+    color: white;
+}
+.userProfile img{
+    width: 200px;
+    
+}
+.profileName{
+    font-size: 30px;
+}
+.userProfileFather{
+    margin: 20px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.userRatings{
+    width: 100%;
+    padding: 50px;
+    max-width: 1000px;
+    background-color: #ccc;
+}

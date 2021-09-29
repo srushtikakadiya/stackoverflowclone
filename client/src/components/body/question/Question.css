@@ -1,0 +1,276 @@
+.questionComponent {
+    display: grid;
+}
+
+.questionComponentBody {
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto 1fr;
+}
+
+.questionComponentBodyLikes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.questionComponentBodyLikes {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.questionComponentBodyLikes button {
+    background-color: #cccccc;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.questionComponentBodyExact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.questionComponentBodyExactTags {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.questionComponentBodyExactTags span {
+    padding: 5px;
+    background-color: #333;
+    color: white;
+}
+
+.questionComponentBodyExactControl {
+    justify-content: right;
+    display: flex;
+    align-items: right;
+    gap: 5px;
+    flex-direction: row-reverse;
+}
+
+.questionComponentBodyExactControl>* {
+    padding: 5px 15px;
+    color: white;
+}
+
+.questionComponentBodyExactControl>*.delete {
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+}
+
+.questionComponentBodyExactControl>*.delete:hover {
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+}
+
+.questionComponentBodyExactControl>*.edit {
+    background-color: lime;
+    color: #333;
+}
+
+.questionComponentBodyExactTitle {
+    font-size: 30px;
+}
+
+.questionComponentBodyExactDescription {
+    font-size: 20px;
+}
+
+.questionComponentBodyLikes button svg {
+    height: 40px;
+    width: 40px;
+}
+
+.questionComponentBodyIsAnsweared.yes {
+    background-color: lime;
+}
+
+.questionComponentBodyLikesBtn.Liked {
+    background-color: lime;
+}
+
+.questionComponentBodyLikes button {
+    width: 60px;
+    height: 60px;
+}
+
+.questionComponentBodyExactImages {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 5px;
+}
+
+.questionComponentBodyExactImages img {
+    max-height: 300px;
+    height: 300px;
+}
+
+.answearCreation {
+    display: flex;
+}
+
+.comments_section_control {
+    padding: 5px 20px;
+}
+
+.comments_section_control {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr auto;
+}
+
+.comments_section_control input {
+    border: 2px solid #333;
+    padding: 5px;
+}
+
+.comments_section_control button {
+    padding: 5px 25px;
+    background-color: #333;
+    color: white;
+    border: 2px solid #333;
+}
+
+.comments_map {
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.comments_map .comment {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.comments_map .comment button {
+    font-size: 20px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    color: #333;
+    background-color: white;
+    border: 2px solid #333;
+}
+
+.answear {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.answearBody {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.answearsMap {
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.answearsMapTitle {
+    font-size: 30px;
+}
+
+.answearMainContentImgMap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.answearMainContentImgMap img {
+    max-height: 300px;
+    max-width: 100%;
+    height: 300px;
+}
+
+.answearVote {
+    width: 60px;
+}
+
+.answearVote button {
+    width: 60px;
+    height: 60px;
+    background-color: #cccccc;
+
+}
+
+.answearVote button.Liked {
+    background-color: lime;
+}
+
+.answearVote button svg {
+    height: 40px;
+    width: 40px;
+}
+
+.answearVoteLength {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.answearMainContentControl {
+    display: flex;
+    gap: 5px;
+}
+
+.answearMainContentControl>* {
+    padding: 5px 25px;
+    background-color: #333;
+    color: white;
+    border: 2px solid #333;
+
+}
+
+.answearMainContentControl>*:hover {
+    color: #333;
+    background-color: white;
+}
+
+.answearMainContentControl>*.delete {
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+}
+
+.answearMainContentControl>*.delete:hover {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+
+.comments_section_title {
+    font-size: 30px;
+    margin: 5px 20px;
+}
+pre.questionComponentBodyExactDescription{
+max-width: 100%;
+overflow: hidden;
+white-space: pre-line;
+}
+.questionComponentBodyExact{
+    max-width: 100%;
+}
+.questionComponentBody{
+    max-width: 100%;
+}
+.questionComponent{
+    max-width: 100%;
+}

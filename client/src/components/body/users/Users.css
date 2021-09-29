@@ -1,0 +1,41 @@
+.UsersMap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin: 20px;
+}
+
+.UsersMapCell {
+    background-color: #ccc;
+    display: flex;
+    width: 280px;
+    padding: 10px;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.UsersMapCell a {
+    color: #333;
+    font-weight: bold;
+}
+
+.UsersMapCell a:hover {
+    text-decoration: underline;
+}
+
+.UsersMapCell img {
+    height: 80px;
+    align-self: center;
+    border-radius: 50%;
+    width: 80px;
+}
+.profile_page_users{
+    margin: 20px;
+}
+
+.profile_page_users input{
+    border-radius: 0;
+    padding: 5px;
+    border: 2px solid #333;
+}
